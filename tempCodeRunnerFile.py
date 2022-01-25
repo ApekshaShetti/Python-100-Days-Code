@@ -1,4 +1,4 @@
-    timmy.forward(10)
-    timmy.penup()
-    timmy.forward(10)
-    timmy.pendown()
+    new_paddlemy.forward(10)
+    new_paddlemy.penup()
+    new_paddlemy.forward(10)
+    new_paddlemy.pendown()

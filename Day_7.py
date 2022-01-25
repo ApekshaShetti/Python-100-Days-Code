@@ -69,7 +69,7 @@ stages = [
       |
 =========""",
 ]
-word_list = ["apeksha", "neha", "vinay", "zaid"]
+word_list = ["new_paddle", "neha", "vinay", "zaid"]
 choosen_word = random.choice(word_list)
 
 lives = 0
