@@ -244,7 +244,7 @@ data = [
         "country": "United States",
     },
     {
-        "name": "Justin new_paddleberlake",
+        "name": "Justin new_Turtleberlake",
         "follower_count": 59,
         "description": "Musician and actor",
         "country": "United States",

@@ -1,4 +1,4 @@
-from paddle import paddle
+from turtle import Turtle
 X_POS=[20,0,-20]
 MOV_DIST=20
 UP=90
@@ -15,7 +15,7 @@ class Snake:
     
     def create_snake(self):
         for s in range(0,3):
-            snake=paddle(shape="square")
+            snake=Turtle(shape="square")
             snake.color("white")
             snake.penup()
             snake.goto(x=X_POS[s],y=0)

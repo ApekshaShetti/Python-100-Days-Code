@@ -1,4 +1,4 @@
-from paddle import paddle, Screen, width
+from turtle import Turtle, Screen, width
 import time
 from scoreboard import ScoreBoard
 from snake import Snake
@@ -34,7 +34,7 @@ while game_is_on:
    
 
     # Detect collision with wall
-    if snake.head.xcor()>280 or snake.head.xcor<-280 or snake.head.ycor()>280 or snake.head.ycor<-280:
+    if snake.head.xcor()>280 or snake.head.xcor()<-280 or snake.head.ycor()>280 or snake.head.ycor()<-280:
         game_is_on=False
         scoreBoard.game_over()
         

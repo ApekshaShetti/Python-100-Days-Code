@@ -1,54 +1,54 @@
-import paddle as t
-from paddle import Screen
+import turtle as t
+from turtle import Screen
 import random
 
-new_paddlemy=t.paddle()
+new_Turtlemy=t.Turtle()
 t.colormode(255)
-new_paddlemy.shape("paddle")
+new_Turtlemy.shape("Turtle")
 
 
 # for _ in range(4):
-#     new_paddlemy.forward(100)
-#     new_paddlemy.right(90)
+#     new_Turtlemy.forward(100)
+#     new_Turtlemy.right(90)
 
 
 # for _ in range(15):
-#     new_paddlemy.forward(10)
-#     new_paddlemy.penup()
-#     new_paddlemy.forward(10)
-#     new_paddlemy.pendown()
+#     new_Turtlemy.forward(10)
+#     new_Turtlemy.penup()
+#     new_Turtlemy.forward(10)
+#     new_Turtlemy.pendown()
 
 # for _ in range(3):
-#     new_paddlemy.forward(100)
-#     new_paddlemy.right(120)
+#     new_Turtlemy.forward(100)
+#     new_Turtlemy.right(120)
     
 # for i in range(4):
-#     new_paddlemy.forward(100)
-#     new_paddlemy.right(90)
+#     new_Turtlemy.forward(100)
+#     new_Turtlemy.right(90)
 
 # for i in range(5):
-#     new_paddlemy.forward(100)
-#     new_paddlemy.right(72)
+#     new_Turtlemy.forward(100)
+#     new_Turtlemy.right(72)
 
 # for i in range(6):
-#     new_paddlemy.forward(100)
-#     new_paddlemy.right(60)
+#     new_Turtlemy.forward(100)
+#     new_Turtlemy.right(60)
 
 # for i in range(7):
-#     new_paddlemy.forward(100)
-#     new_paddlemy.right(51.4)
+#     new_Turtlemy.forward(100)
+#     new_Turtlemy.right(51.4)
 
 # for i in range(8):
-#     new_paddlemy.forward(100)
-#     new_paddlemy.right(45)
+#     new_Turtlemy.forward(100)
+#     new_Turtlemy.right(45)
 
 # for i in range(9):
-#     new_paddlemy.forward(100)
-#     new_paddlemy.right(40)
+#     new_Turtlemy.forward(100)
+#     new_Turtlemy.right(40)
 
 # for i in range(10):
-#     new_paddlemy.forward(100)
-#     new_paddlemy.right(36)
+#     new_Turtlemy.forward(100)
+#     new_Turtlemy.right(36)
 
 def random_color():
     r=random.randint(0,255)
@@ -59,21 +59,21 @@ def random_color():
     
 # colors=["Red","Yellow","Blue","Green","Violet","Purple"]
 # directions=[0,90,180,270]
-# new_paddlemy.pensize(15)
-# new_paddlemy.speed("fastest")
+# new_Turtlemy.pensize(15)
+# new_Turtlemy.speed("fastest")
 # for _ in range(200):
-#     # new_paddlemy.color(random.choice(colors))
-#     new_paddlemy.color(random_color())
-#     new_paddlemy.forward(20)
-#     new_paddlemy.setheading(random.choice(directions))
+#     # new_Turtlemy.color(random.choice(colors))
+#     new_Turtlemy.color(random_color())
+#     new_Turtlemy.forward(20)
+#     new_Turtlemy.setheading(random.choice(directions))
 
-new_paddlemy.speed("fastest")
+new_Turtlemy.speed("fastest")
 
 def draw_spirograph(size):
     for i in range(int(360/size)):
-        new_paddlemy.color(random_color())
-        new_paddlemy.circle(100)
-        new_paddlemy.setheading(new_paddlemy.heading()+size)
+        new_Turtlemy.color(random_color())
+        new_Turtlemy.circle(100)
+        new_Turtlemy.setheading(new_Turtlemy.heading()+size)
 draw_spirograph(5)
 
 screen=Screen()

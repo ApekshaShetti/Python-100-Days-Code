@@ -2,23 +2,23 @@
 #     print("Hello")
 #     print("Vanakkam")
 #     print("Shubhprabhat")
-# greet(new_paddle)
+# greet(new_Turtle)
 
 # def greet_with_name(name):
 #     print(f"Hello {name}")
 #     print(f"Vanakkam {name}")
 #     print(f"Shubhprabhat {name}")
-# greet_with_name("new_paddle")
+# greet_with_name("new_Turtle")
 
 # def greet_with_(name, location):
 #     print(f"Hello {name}")
 #     print(f"how is the weather in {location}")
-# greet_with_("new_paddle", "India")
+# greet_with_("new_Turtle", "India")
 
 # def greet_with_(name, location):
 #     print(f"Hello {name}")
 #     print(f"how is the weather in {location}")
-# greet_with_(location="India", name="new_paddle")
+# greet_with_(location="India", name="new_Turtle")
 
 # import math
 # def paint_calc(height, width, cover):

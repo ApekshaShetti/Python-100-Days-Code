@@ -1,5 +1,5 @@
 # students_scores = {
-#     "new_paddle": 88,
+#     "new_Turtle": 88,
 #     "Neha": 75,
 #     "Zaid": 91,
 #     "Vinay": 69,

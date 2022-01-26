@@ -1,21 +1,21 @@
-from paddle import paddle,Screen, clearscreen
+from turtle import Turtle,Screen, clearscreen
 
-new_paddle=paddle()
+new_Turtle=Turtle()
 screen=Screen()
 
 def move_forward():
-    new_paddle.forward(50)
+    new_Turtle.forward(50)
 def move_backward():
-    new_paddle.backward(50)
+    new_Turtle.backward(50)
 def clockwise():
-    new_paddle.right(50)
+    new_Turtle.right(50)
 def counter_clockwise():
-    new_paddle.left(50)
+    new_Turtle.left(50)
 def clear_scr():
-    new_paddle.clear()
-    new_paddle.penup()
-    new_paddle.home()
-    new_paddle.pendown()
+    new_Turtle.clear()
+    new_Turtle.penup()
+    new_Turtle.home()
+    new_Turtle.pendown()
 
 
 screen.listen()

@@ -108,7 +108,7 @@ def playgame():
 
     # Hint 11: The score will need to be rechecked with every new card drawn and the checks in Hint 9 need to be repeated until the game ends.
 
-    # Hint 12: Once the user is done, it's new_paddlee to let the computer play. The computer should keep drawing cards as long as it has a score less than 17.
+    # Hint 12: Once the user is done, it's new_Turtlee to let the computer play. The computer should keep drawing cards as long as it has a score less than 17.
     while computer_score != 0 and computer_score < 17:
         computer_cards.append(deal_card())
         computer_score = calculate_score(computer_cards)

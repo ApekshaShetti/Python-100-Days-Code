@@ -1,4 +1,4 @@
-    new_paddlemy.forward(10)
-    new_paddlemy.penup()
-    new_paddlemy.forward(10)
-    new_paddlemy.pendown()
+    new_Turtlemy.forward(10)
+    new_Turtlemy.penup()
+    new_Turtlemy.forward(10)
+    new_Turtlemy.pendown()
