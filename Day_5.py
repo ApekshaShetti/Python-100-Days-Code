@@ -1,5 +1,4 @@
 import random
-from typing_extensions import ParamSpecKwargs
 
 # student_scores = [10, 20, 30, 40, 91]
 # print(student_scores)
