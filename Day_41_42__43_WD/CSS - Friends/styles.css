@@ -1,0 +1,23 @@
+/* tag selectors */
+
+h1{ color : red;font-size:25px;}
+
+img{
+     background-color:rgb(147, 163, 158);
+}
+
+img:hover{
+    background-color: goldenrod;
+}
+
+/* Class Selectors */
+/* we can add two classes for particular element */
+.Friends{
+    background-color:rgb(116, 54, 47);
+}
+
+/* Id Selectors */
+/* we cannot add two classes for particular element */
+#heading{
+    color: blueviolet
+}
