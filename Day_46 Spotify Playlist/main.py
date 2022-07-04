@@ -6,7 +6,8 @@ from spotipy.oauth2 import SpotifyOAuth
 
 SPOTIPY_CLIENT_ID='99ed42577881444cb358e99c74602896'
 SPOTIPY_CLIENT_SECRET='ae9c29c45f5845d1bc6d0725fcbf6c82'
-
+URL = "https://www.billboard.com/charts/billboard-global-200/"
+user = input("Which year do you want to travel to? Type the date in this format YYYY-MM-DD:")
 
 sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
@@ -19,12 +20,13 @@ sp = spotipy.Spotify(
         ))
 
 
-response = requests.get("https://www.billboard.com/charts/billboard-global-200/")
-soup = BeautifulSoup(response.text,'html.parser')
-song_names_spans = soup.find_all("span", class_="chart-element__information__song")
+response = requests.get(URL+user)
+data = response.text
+
+soup = BeautifulSoup(data,'html.parser')
+songs = soup.find_all("span", class_="chart-element__information__song")
 
 user_id = sp.current_user()["id"]
-date = input("Which year do you want to travel to? Type the date in this format YYYY-MM-DD:")
 song_names = song_names = [song.getText() for song in song_names_spans]
 
 
